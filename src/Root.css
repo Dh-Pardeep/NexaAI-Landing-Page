@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+    box-sizing: border-box !important;
+    text-decoration: none !important;
+    /* border: 1px solid green !important;     */
+}
+
+@font-face {
+    font-family: Recharge;
+    src: url("./assets/font/recharge\ bd.otf");
+}
+
+/* ROOT START */
+:root {
+    --ff-Poppins: 'Poppins', sans-serif;
+    --ff-Recharge: 'Recharge', sans-serif;
+    /* FONT SIZE */
+    --font-xs: 16px;
+    --font-md: 18px;
+    --font-lg: 20px;
+    --font-xl: 24px;
+    --font-2xl: 32px;
+    --font-3xl: 40px;
+    --font-4xl: 60px;
+    /* COLOR */
+    --color-white: #fff;
+    --color-green: #02CDCF;
+    --color-black: #0B0A0A;
+    --color-offwhite: #FCFCFC;
+}
+
+/* DEFINE FONT SIZE */
+.ff_Recharge{
+    font-family:var(--ff-Recharge) !important;
+}
+.ff_Poppins{
+    font-family:var(--ff-Poppins) !important;
+}
+
+.font_xs {
+    font-size: var(--font-xs) !important;
+}
+
+.font_md {
+    font-size: var(--font-md) !important;
+}
+
+.font_lg {
+    font-size: var(--font-lg) !important;
+}
+
+.font_xl {
+    font-size: var(--font-xl) !important;
+}
+
+.font_2xl {
+    font-size: var(--font-2xl) !important;
+}
+
+.font_3xl {
+    font-size: var(--font-3xl) !important;
+}
+
+.font_4xl {
+    font-size: var(--font-4xl) !important;
+}
+
+
+/* FONT SIZE MEDIA QUERY */
+@media (min-width: 575.98px) {
+    :root {
+        /* FONT SIZE */
+        --font-xs: 16px;
+        --font-md: 18px;
+        --font-lg: 20px;
+        --font-xl: 24px;
+        --font-2xl: 32px;
+        --font-3xl: 40px;
+        --font-4xl: 60px;
+    }
+}
+
+@media (min-width: 767.98px) {
+    :root {
+        /* FONT SIZE */
+        --font-xs: 16px;
+        --font-md: 18px;
+        --font-lg: 20px;
+        --font-xl: 24px;
+        --font-2xl: 32px;
+        --font-3xl: 40px;
+        --font-4xl: 60px;
+    }
+}
+
+@media (min-width: 991.98px) {
+    :root {
+        /* FONT SIZE */
+        --font-xs: 16px;
+        --font-md: 18px;
+        --font-lg: 20px;
+        --font-xl: 24px;
+        --font-2xl: 32px;
+        --font-3xl: 40px;
+        --font-4xl: 60px;
+    }
+}
+
+@media (min-width: 1200px) {
+    :root {
+        /* FONT SIZE */
+        --font-xs: 16px;
+        --font-md: 18px;
+        --font-lg: 20px;
+        --font-xl: 24px;
+        --font-2xl: 32px;
+        --font-3xl: 40px;
+        --font-4xl: 60px;
+    }
+}
+
+
+/* DEFINR COLOR */
+
+.text_white {
+    color: var(--color-white) !important;
+}
+
+.text_black {
+    color: var(--color-black) !important;
+}
+.text_offwhite {
+    color: var(--color-offwhite) !important;
+}
+.text_green {
+    color: var(--color-green) !important;
+}
