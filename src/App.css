@@ -1,0 +1,41 @@
+/* ///////////////// Common Components /////////////// */
+
+.Bg_Color {
+    background-color: var(--color-black);
+}
+
+.common_btn {
+    background: #02CDCF;
+    border-radius: 8px;
+    padding: 10px 26px;
+    transition: all 0.3s linear;
+    border: 1px solid #02CDCF !important;
+}
+
+.common_btn:focus,
+.common_btn:hover {
+    -webkit-animation: pulse 1s;
+    animation: pulse 1s;
+    box-shadow: 0 0 0 0.7em transparent;
+    background-color: transparent !important;
+    color: var(--color-green) !important;
+}
+
+@keyframes pulse {
+    0% {
+        box-shadow: 0 0 0 0 #02CDCF;
+    }
+}
+
+
+
+
+
+
+/* ////////////////////  Nav Bar /////////////////// */
+
+.py_30 {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
