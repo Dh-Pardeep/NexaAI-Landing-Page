@@ -18,13 +18,13 @@
     --ff-Poppins: 'Poppins', sans-serif;
     --ff-Recharge: 'Recharge', sans-serif;
     /* FONT SIZE */
-    --font-xs: 16px;
-    --font-md: 18px;
-    --font-lg: 20px;
-    --font-xl: 24px;
-    --font-2xl: 32px;
-    --font-3xl: 40px;
-    --font-4xl: 60px;
+    --font-xs: 14px;
+    --font-md: 15px;
+    --font-lg: 17px;
+    --font-xl: 18px;
+    --font-2xl: 22px;
+    --font-3xl: 28px;
+    --font-4xl: 34px;
     /* COLOR */
     --color-white: #fff;
     --color-green: #02CDCF;
@@ -67,45 +67,39 @@
 .font_4xl {
     font-size: var(--font-4xl) !important;
 }
-
+    
 
 /* FONT SIZE MEDIA QUERY */
 @media (min-width: 575.98px) {
     :root {
         /* FONT SIZE */
-        --font-xs: 16px;
-        --font-md: 18px;
-        --font-lg: 20px;
-        --font-xl: 24px;
-        --font-2xl: 32px;
-        --font-3xl: 40px;
-        --font-4xl: 60px;
+        --font-3xl: 32px;
+        --font-4xl: 38px;
     }
 }
 
 @media (min-width: 767.98px) {
     :root {
         /* FONT SIZE */
-        --font-xs: 16px;
-        --font-md: 18px;
-        --font-lg: 20px;
-        --font-xl: 24px;
-        --font-2xl: 32px;
-        --font-3xl: 40px;
-        --font-4xl: 60px;
+        --font-md: 16px;
+        --font-lg: 18px;
+        --font-xl: 20px;
+        --font-2xl: 24px;
+        --font-3xl: 34px;
+        --font-4xl: 44px;
     }
 }
 
 @media (min-width: 991.98px) {
     :root {
         /* FONT SIZE */
-        --font-xs: 16px;
-        --font-md: 18px;
-        --font-lg: 20px;
-        --font-xl: 24px;
-        --font-2xl: 32px;
-        --font-3xl: 40px;
-        --font-4xl: 60px;
+        --font-xs: 15px;
+        --font-md: 17px;
+        --font-lg: 19px;
+        --font-xl: 22px;
+        --font-2xl: 28px;
+        --font-3xl: 35px;
+        --font-4xl: 52px;
     }
 }
 
