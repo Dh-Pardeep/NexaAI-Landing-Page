@@ -3,6 +3,11 @@ import { Container } from 'react-bootstrap'
 
 const MyNav = () => {
   const [showNavbar, setShowNavbar] = useState(true);
+  if (showNavbar) {
+    document.body.classList.remover("overflow-hidden")
+  } else {
+    document.body.classList.add("overflow-hidden")
+  }
   return (
     <>
       <header>
@@ -14,6 +19,7 @@ const MyNav = () => {
               <li><a onClick={() => setShowNavbar(true)} href="#Marketplace">Marketplace</a></li>
               <li><a onClick={() => setShowNavbar(true)} href="#About">About</a></li>
               <li><a onClick={() => setShowNavbar(true)} href="#Nexchat">Nexchat</a></li>
+              <li><a onClick={() => setShowNavbar(true)} href="#Tokens">Tokens</a></li>
               <li><a onClick={() => setShowNavbar(true)} href="#Tokens">Tokens</a></li>
             </ul>
           </nav>
