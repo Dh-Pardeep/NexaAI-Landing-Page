@@ -1,13 +1,13 @@
 /* ///////////////// Common Components /////////////// */
 
 .Bg_Color {
-    background-color: var(--color-black);
+    background-color: var(--color-black) !important;
 }
 
 .common_btn {
     background: #02CDCF;
     border-radius: 8px;
-    padding: 10px 26px;
+    padding: 15px 32px;
     transition: all 0.3s linear;
     border: 1px solid #02CDCF !important;
 }
@@ -27,9 +27,9 @@
     }
 }
 
-
-
-
+.c_pointer {
+    cursor: pointer !important;
+}
 
 
 /* ////////////////////  Nav Bar /////////////////// */
@@ -39,3 +39,236 @@
     padding-bottom: 30px;
 }
 
+.gap_20 {
+    gap: 20px;
+}
+
+.Nav_Btn_hover {
+    transition: all 300ms ease-in-out;
+}
+
+.Nav_Btn_hover:hover {
+    color: #02CDCF !important;
+}
+
+.Nav_Btn_hover::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 50%;
+    background-color: #02CDCF;
+    transition: all 300ms ease-in-out;
+    border-radius: 50%;
+}
+
+.Nav_Btn_hover:hover::after {
+    width: 100%;
+    left: 0;
+}
+
+@media (max-width:992px) {
+    .nav_sm {
+        position: absolute;
+        left: -100%;
+        top: 0;
+        width: 100%;
+        height: 100vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 2;
+        transition: all 500ms linear;
+    }
+
+    .nav_show {
+        left: 0;
+    }
+
+    .overflow_hidden {
+        overflow: hidden;
+    }
+
+    .close_nav {
+        position: absolute;
+        right: 10%;
+        top: 25px;
+        cursor: pointer;
+    }
+
+}
+
+/* ////////////////////  Hero Section /////////////////// */
+.bg_image_hero_xs {
+    background-image: url("./assets/image/gif/SmallScreenHero.gif");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-size: 100% 100%;
+}
+
+/* ////////////////////  AIPowered Section /////////////////// */
+.AIPowered_para_w {
+    max-width: 517px;
+}
+
+.AI_bg_shadow {
+    background: var(--color-green);
+    filter: blur(227px);
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 25%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* ////////////////////  Unique features Section /////////////////// */
+
+.boxunique {
+    border: 1px solid #FCFCFC;
+    height: 700px;
+    width: 95%;
+    border-radius: 32px;
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04));
+}
+
+.unique_para_w {
+    max-width: 401px;
+}
+
+.UniqueCenterImg {
+    top: 40%;
+}
+
+.RemoteAccess_box {
+    width: 280px;
+    height: 400px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px 28px 40px 28px;
+}
+*{
+    -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+.RemoteAccess_box_top_translate{
+    transform: translateY(-50px);
+}
+.RemoteAccess_box_top_translate_2{
+    transform: translateY(-100px);
+}
+.RemoteAccess_box_top_translate_3{
+    transform: translateY(-150px);
+}
+.slick-dots li button:before{
+    color: white !important;
+    font-size: 12px !important;
+    margin-top: 20px ; 
+}
+.w_100{
+    width: 100%;
+}
+/* ////////////////////  Blockchain Section /////////////////// */
+
+.BlockchainPara{
+    max-width: 997px;
+}
+
+.BlockchainPara_2{
+    max-width: 675px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:575.9px) {
+    .w_sm_unset{
+        width: unset !important;
+    }
+}
+
+@media (min-width:767.9px) {}
+.marginleft{
+    margin-left: 30px;
+}
+.marginright{
+    margin-right: 30px;
+}
+
+@media (min-width:991.9px) {
+    .Bg_image_hero {
+        background-image: url("./assets/image/gif/heroSection.gif");
+        background-repeat: no-repeat;
+        background-position: 50%;
+        background-size: 100% 100%;
+    }
+
+    .header_shadow::after {
+        background: linear-gradient(90deg, #000, transparent);
+        content: "";
+        height: 348px;
+        left: 21%;
+        position: absolute;
+        top: 138px;
+        width: 20%;
+        z-index: 0;
+    }
+
+    .header_bottom_shadow::after {
+        background: linear-gradient(179deg, #040404 24.07%, rgba(4, 4, 4, 0) 96.3%);
+        content: "";
+        height: 106px;
+        left: 0%;
+        position: absolute;
+        bottom: -61px;
+        width: 100%;
+        z-index: 6;
+    }
+    .marginleft{
+        margin-left: 100px;
+    }
+    .marginright{
+        margin-right: 100px;
+    }
+    .RemoteAccess_box {
+        width: 364px;
+        height: 400px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 30px 28px 40px 28px;
+    }
+    .boxunique {
+        height: 810px;
+        width: 95%;
+    }
+}
+
+@media (min-width:1200px) {}
+
+@media (min-width:1400px) {}
+
+@media (min-width:1600px) {
+    .header_bottom_shadow::after {
+        bottom: -63px;
+    }
+}
