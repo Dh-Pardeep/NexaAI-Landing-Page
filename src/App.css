@@ -150,51 +150,181 @@
     border-radius: 16px;
     padding: 30px 28px 40px 28px;
 }
-*{
+
+/* * {
     -ms-overflow-style: none;
 }
+
 ::-webkit-scrollbar {
     display: none;
+} */
+
+#my_scroll ::-webkit-scrollbar{
+    display: none;
 }
-
-
-.RemoteAccess_box_top_translate{
+.RemoteAccess_box_top_translate {
     transform: translateY(-50px);
 }
-.RemoteAccess_box_top_translate_2{
+
+.RemoteAccess_box_top_translate_2 {
     transform: translateY(-100px);
 }
-.RemoteAccess_box_top_translate_3{
+
+.RemoteAccess_box_top_translate_3 {
     transform: translateY(-150px);
 }
-.slick-dots li button:before{
+
+.slick-dots li button:before {
     color: white !important;
     font-size: 12px !important;
-    margin-top: 20px ; 
+    margin-top: 20px;
 }
-.w_100{
+
+.w_100 {
     width: 100%;
 }
+
 /* ////////////////////  Blockchain Section /////////////////// */
 
-.BlockchainPara{
+.BlockchainPara {
     max-width: 997px;
 }
 
-.BlockchainPara_2{
+.BlockchainPara_2 {
     max-width: 675px;
 }
 
+.Securitypara {
+    max-width: 212px;
+}
+
+.One_border {
+    background-color: #040404;
+    box-shadow: 0px 4px 16px 0px rgba(2, 205, 207, 0.60) inset;
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+
+.top_box_security {
+    top: 42% !important;
+}
 
 
+/* //////////////////// NexAi does all this. And more. /////////////////// */
+.NexAIThreeSliderPara {
+    max-width: 912px;
+}
+
+.Three_slider_box {
+    background: hsla(0, 0%, 100%, .02);
+    border-radius: 16px;
+    height: 220px;
+    box-shadow: 0px 4px 20px 0px rgba(2, 205, 207, .16);
+    padding: 53px 43px;
+    transition: all .3s linear !important;
+}
+
+.Three_slider_box:hover {
+    background: rgba(2, 205, 207, .16);
+    box-shadow: 0px 4px 20px 0px rgba(82, 80, 80, .482);
+}
+
+.Three_Slider_box_h2 {
+    max-width: 254px;
+}
+
+.NexAi_box_one {
+    width: 100%;
+    height: 840px;
+    border-radius: 16px;
+    border: 1px solid white;
+    border: 1px solid #fcfcfc;
+    padding: 150px;
+    position: relative;
+    z-index: 0;
+}
+
+.NexAi_box_one,
+.NexAi_box_one:after {
+    border-radius: 24px;
+    object-fit: cover;
+}
+
+.NexAi_box_one:after {
+    background: hsla(0, 0%, 100%, .08) url("./assets/image/gif/nextAI_bg.gif") no-repeat;
+    background-color: #fff;
+    background-position: cover;
+    background-size: 100% 100%;
+    content: "";
+    height: 100%;
+    left: 0;
+    opacity: .3;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+
+.NexAi_box_one,
+.NexAi_box_one:after {
+    border-radius: 24px;
+    /* object-fit: cover; */
+}
+
+/* ////////////////// tokens section ////////////////// */
+.Left_line::after {
+    content: "";
+    background: #02CDCF;
+    width: 8px;
+    height: 326%;
+    border-radius: 15px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.Tokens_boxScroll{
+    height: 450px;
+}
+.cricel_left::after{
+    content:"";
+    width: 24px;
+    height: 24px;
+    background: white;
+    position: absolute;
+    border-radius: 50%;
+    top: 40%;
+    left: -45px;
+    z-index: 222;
+}
 
 
+/* //////////////////Footer ////////////////// */
+.footerpara {
+    max-width: 350px;
+}
 
+.mt_20 {
+    margin-top: 20px;
+}
 
+.Footer_border {
+    border-radius: 16px;
+    border: 1px solid white;
+    opacity: 0.4;
+    background: var(--color-white, );
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
 
+.Svg_hover {
+    transition: all 300ms linear;
+    transform: translateY(5px);
+}
 
-
-
+.Svg_hover:hover {
+    transform: scale(1.1);
+}
 
 
 
@@ -202,17 +332,23 @@
 
 
 @media (min-width:575.9px) {
-    .w_sm_unset{
+    .w_sm_unset {
         width: unset !important;
     }
 }
 
 @media (min-width:767.9px) {}
-.marginleft{
+
+.marginleft {
     margin-left: 30px;
 }
-.marginright{
+
+.marginright {
     margin-right: 30px;
+}
+
+.NexAi_box_one {
+    width: 95% !important;
 }
 
 @media (min-width:991.9px) {
@@ -244,31 +380,47 @@
         width: 100%;
         z-index: 6;
     }
-    .marginleft{
+
+    .marginleft {
         margin-left: 100px;
     }
-    .marginright{
+
+    .marginright {
         margin-right: 100px;
     }
+
     .RemoteAccess_box {
         width: 364px;
         height: 400px;
-    background-color: white;
-    border-radius: 16px;
-    padding: 30px 28px 40px 28px;
+        background-color: white;
+        border-radius: 16px;
+        padding: 30px 28px 40px 28px;
     }
+
     .boxunique {
         height: 810px;
         width: 95%;
     }
 }
 
-@media (min-width:1200px) {}
+@media (min-width:1200px) {
+    .ps_150px {
+        padding-left: 100px;
+    }
+}
 
-@media (min-width:1400px) {}
+@media (min-width:1400px) {
+    .ps_150px {
+        padding-left: 120px;
+    }
+}
 
 @media (min-width:1600px) {
     .header_bottom_shadow::after {
         bottom: -63px;
+
+        .ps_150px {
+            padding-left: 140px;
+        }
     }
 }

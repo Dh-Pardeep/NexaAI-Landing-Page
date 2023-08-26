@@ -1,6 +1,7 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import AIPoweredImg from '../assets/image/png/AIPowerd.png'
+import { Link } from 'react-router-dom'
 const AIPowered = () => {
     return (
         <section className='position-relative Bg_Color'  >
@@ -17,7 +18,7 @@ const AIPowered = () => {
                         <p className='opacity_7 text_white font_xs fw-normal ff_Poppins AIPowered_para_w'>Nexai is an advanced AI-powered home assistant that brings the future to your fingertips. With its ability to engage in natural, fluent conversations in over 15 languages,</p>
                         <p className='opacity_7 text_white font_xs fw-normal ff_Poppins AIPowered_para_w'>Nexai offers an incredibly futuristic experience. It can take the initiative to ask about your day, schedule meetings, provide timely reminders</p>
                         <p className='opacity_7 text_white font_xs fw-normal ff_Poppins AIPowered_para_w mb-4'>assist with cooking by suggesting ingredients, track your fitness and nutrition goals, and even handle bill payments.</p>
-                        <a href='#' className=' mt-4 mb-0 d-inline-block text_black common_btn ff_Recharge fw-bold  font_md c_pointer'>Learn More</a>
+                        <Link href='#' className=' mt-4 mb-0 d-inline-block text_black common_btn ff_Recharge fw-bold  font_md c_pointer'>Learn More</Link>
                     </Col>
                 </Row>
             </Container>

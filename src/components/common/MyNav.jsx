@@ -9,9 +9,10 @@ const MyNav = () => {
   } else {
     document.body.classList.add('overflow-hidden')
   }
+  
   return (
     <>
-      <section className='position-fixed top-0 w-100 z_1000 '>
+      <section className='position-fixed  top-0 w-100 z_1000 '>
         <Container >
           <nav className='d-flex justify-content-between align-items-center py_30'>
             <div></div>

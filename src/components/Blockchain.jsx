@@ -4,16 +4,59 @@ import Slider from "react-slick";
 import ImageP1 from '../assets/image/png/pantagun_bg.png'
 const Blockchain = () => {
     var settings = {
-        dots: true,
-        infinite: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1
+        dots: false,
+        arrows: false,
+        centerMode: true,
+        slidesToShow: 3.5,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 0,
+        speed: 4000,
+        pauseOnHover: false,
+        cssEase: 'linear',
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 2.5,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2.5,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 800,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 650,
+                settings: {
+                    slidesToShow: 1.5,
+                    centerMode: false,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1.1,
+                    centerMode: false,
+                    slidesToScroll: 1,
+                }
+            },
+        ]
     };
     return (
         <>
             <section>
-                <Container>
                     <h2 className="text_green font_3xl ff_Recharge fw-bold mb-0 mb-3 text-center pt-5">
                         Blockchain & AI technology
                     </h2>
@@ -25,27 +68,44 @@ const Blockchain = () => {
                             By building the software on blockchain, Nexai provides the following advantages
                         </p>
                     </div>
-                    <Slider {...settings}>
+                    <Slider {...settings} className='pt-5 pb-lg-5 ps_150px'>
                         <div>
-                            <h3>1</h3>
+                            <div className='position-relative d-inline-block c_pointer'>
+                                <img className='w-100' src={ImageP1} alt="ImageP1" />
+                                <div className='position-absolute translate-middle start-50 top_box_security w-100 pt-5'>
+                                    <h2 className='font_2xl ff_Recharge text_white fw-bold One_border d-inline-block accordion-body d-flex align-items-center justify-content-center mx-auto'>1</h2>
+                                    <p className='font_lg ff_Recharge text_white fw-bold Securitypara text-center mt-5 mx-auto'>Security and Privacy</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className='py-5'>
+                            <div className='position-relative d-inline-block  my-5 c_pointer'>
+                                <img className='w-100' src={ImageP1} alt="ImageP1" />
+                                <div className='position-absolute translate-middle start-50 top_box_security w-100 pt-5'>
+                                    <h2 className='font_2xl ff_Recharge text_white fw-bold One_border d-inline-block accordion-body d-flex align-items-center justify-content-center mx-auto'>2</h2>
+                                    <p className='font_lg ff_Recharge text_white fw-bold Securitypara text-center mt-5 mx-auto'>Transparent and Reliable Data Management</p>
+                                </div>
+                            </div>
                         </div>
                         <div>
-                            <h3>2</h3>
+                            <div className='position-relative d-inline-block c_pointer'>
+                                <img className='w-100' src={ImageP1} alt="ImageP1" />
+                                <div className='position-absolute translate-middle start-50 top_box_security w-100 pt-5'>
+                                    <h2 className='font_2xl ff_Recharge text_white fw-bold One_border d-inline-block accordion-body d-flex align-items-center justify-content-center mx-auto'>3</h2>
+                                    <p className='font_lg ff_Recharge text_white fw-bold Securitypara text-center mt-5 mx-auto'>Self-learning and Personalization</p>
+                                </div>
+                            </div>
                         </div>
-                        <div>
-                            <h3>3</h3>
-                        </div>
-                        <div>
-                            <h3>4</h3>
-                        </div>
-                        <div>
-                            <h3>5</h3>
-                        </div>
-                        <div>
-                            <h3>6</h3>
+                        <div className='py-5'>
+                            <div className='position-relative d-inline-block my-5 c_pointer'>
+                                <img className='w-100' src={ImageP1} alt="ImageP1" />
+                                <div className='position-absolute translate-middle start-50 top_box_security w-100 pt-5'>
+                                    <h2 className='font_2xl ff_Recharge text_white fw-bold One_border d-inline-block accordion-body d-flex align-items-center justify-content-center mx-auto'>4 </h2>
+                                    <p className='font_lg ff_Recharge text_white fw-bold Securitypara text-center mt-5 mx-auto'>Automated and Transparent Transactions</p>
+                                </div>
+                            </div>
                         </div>
                     </Slider>
-                </Container>
             </section>
         </>
     )
