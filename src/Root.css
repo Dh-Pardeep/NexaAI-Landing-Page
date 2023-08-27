@@ -24,12 +24,12 @@
     --ff-Poppins: 'Poppins', sans-serif;
     --ff-Recharge: 'Recharge', sans-serif;
     /* FONT SIZE */
-    --font-xs: 14px;
+    --font-xs: 13px;
     --font-md: 15px;
     --font-lg: 16px;
     --font-xl: 18px;
     --font-2xl: 22px;
-    --font-3xl: 28px;
+    --font-3xl: 25px;
     --font-4xl: 34px;
     /* COLOR */
     --color-white: #fff;
@@ -79,6 +79,7 @@
 @media (min-width: 575.98px) {
     :root {
         /* FONT SIZE */
+        --font-xs: 14px;
         --font-3xl: 32px;
         --font-4xl: 38px;
     }

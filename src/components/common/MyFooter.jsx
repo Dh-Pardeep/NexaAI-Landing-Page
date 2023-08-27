@@ -2,13 +2,14 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Facebook, Telegram, Twitter } from './Icons'
 import { Link } from 'react-router-dom'
-
+import FooterMoon from '../../assets/image/png/footer_moon.png'
 const MyFooter = () => {
     return (
         <>
-            <footer>
-                <Container>
-                    <Row className=' align-align-items-baseline pt-5'>
+            <footer className='position-relative '>
+                <img className='position-absolute FooterMoon' src={FooterMoon} alt="FooterMoon" />
+                <Container className='mt-lg-5 pt-xl-4'>
+                    <Row className=' align-align-items-baseline mt-sm-3 mt-md-5 pt-lg-5 '>
                         <Col md={5} lg={5} xl={6} className='pt-5'>
                             <p className='ff_Recharge text_white opacity_7 font_xs fw-bold footerpara'>Nullam viverra natoque amet et sed scelerisque viverra fringilla platea. Ullamcorper.</p>
                             <div className='d-flex'>
@@ -41,7 +42,7 @@ const MyFooter = () => {
                         </Col>
                     </Row>
                     <div className='Footer_border'></div>
-                    <p className='ff_Recharge fw-bold font_xs text_white opacity_7 text-center pb-4'>@Copyright.nexai</p>
+                    <p className='ff_Recharge fw-bold font_xs text_white opacity_7 text-center pb-4 mb-0'>@Copyright.nexai</p>
                 </Container>
             </footer>
         </>

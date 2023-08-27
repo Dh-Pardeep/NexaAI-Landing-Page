@@ -57,7 +57,7 @@ const Blockchain = () => {
     return (
         <>
             <section>
-                    <h2 className="text_green font_3xl ff_Recharge fw-bold mb-0 mb-3 text-center pt-5">
+                    <h2 className="text_green font_3xl ff_Recharge fw-bold mb-0 mb-3 text-center pt-5 mt-3">
                         Blockchain & AI technology
                     </h2>
                     <p className="opacity_7 text_white font_xs fw-normal ff_Poppins BlockchainPara  mx-auto text-center ">

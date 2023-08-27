@@ -123,10 +123,10 @@ const NexAIThreeSlider = () => {
     return (
         <>
             <section>
-                <h2 className="text_green font_3xl ff_Recharge text_white fw-bold mb-0 mb-3 text-center pt-5">
+                <h2 className="text_green font_3xl ff_Recharge text_white fw-bold mt-lg-4 mb-3 text-center">
                     NexAi does all this. And more.
                 </h2>
-                <p className="opacity_7 text_white font_xs fw-normal ff_Poppins NexAIThreeSliderPara  mx-auto text-center mb-5 pb-5">
+                <p className="opacity_7 text_white font_xs fw-normal ff_Poppins NexAIThreeSliderPara  mx-auto text-center mb-5 pb-4">
                     Nexai is an advanced home assistant that will revolutionize the way we interact with our smart devices at home. Powered by sophisticated artificial intelligence, it leverages blockchain technology to offer a secure and efficient user experience.
                 </p>
                 <Slider {...settings}>
