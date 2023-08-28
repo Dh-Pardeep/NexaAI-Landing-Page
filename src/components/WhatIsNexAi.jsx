@@ -7,7 +7,9 @@ const WhatIsNexAi = () => {
         <>
             <section>
                 <div className=' py-lg-5'>
-                    <div className='NexAi_box_one mx-auto mt-5'>
+                    <div className='NexAi_box_one mx-auto mt-5 position-relative overflow-hidden'>
+                        <div className=' NexAiShadow_1 position-absolute '></div>
+                        <div className=' NexAiShadow_2 position-absolute'></div>
                         <Container>
                             <Row className='align-items-center '>
                                 <Col lg={7}>

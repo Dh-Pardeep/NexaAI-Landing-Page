@@ -122,7 +122,8 @@ const NexAIThreeSlider = () => {
 
     return (
         <>
-            <section>
+            <section className='position-relative'>
+            <div className='  NexAidoesShadow_3 position-absolute'></div>
                 <h2 className="text_green font_3xl ff_Recharge text_white fw-bold mt-lg-4 mb-3 text-center">
                     NexAi does all this. And more.
                 </h2>

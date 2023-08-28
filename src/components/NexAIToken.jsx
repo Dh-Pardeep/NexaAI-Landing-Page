@@ -1,21 +1,25 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import HandAI from '../assets/image/png/handAI.png'
+import BlockchainShadowIMg from '../assets/image/png/B;lockchainShadowImg.png'
 const NexAIToken = () => {
     return (
         <>
-            <section id="my_scroll">
+            <section  className='position-relative 'id="my_scroll" >
+                <div className=' TokenShadow_1 position-absolute '></div>
+                <div className=' TokenShadow_2 position-absolute '></div>
+                <img className='position-absolute end-0' src={BlockchainShadowIMg} alt="" />
                 <Container>
-                   <div className='mt-lg-5'>
-                   <h3 className='ff_Recharge fw-bold font_3xl text_green text-center mt-5 py-5 '>NexAI Token & utility</h3>
-                   </div>
+                    <div className='mt-lg-5'>
+                        <h3 className='ff_Recharge fw-bold font_3xl text_green text-center mt-5 py-5 '>NexAI Token & utility</h3>
+                    </div>
                     <Row className='align-items-center'>
                         <Col lg={6}>
                             <img className='w-100' src={HandAI} alt="" />
                         </Col>
                         <Col lg={6} className='mt-5'>
-                            <div className='Tokens_boxScroll   position-relative overflow-scroll'>
-                                <div className= 'Left_line position-relative'>
+                            <div  className='Tokens_boxScroll   position-relative overflow-scroll'>
+                                <div className='Left_line position-relative'>
                                     <div className='ps-5 ms-sm-5 cricel_left position-relative'>
                                         <h2 className='font_xl text_white fw-bold ff_Recharge'>Purchasing Nexai Products</h2>
                                         <p className='opacity_7 text_white font_xs fw-normal ff_Poppins mt-3'>Nex AI tokens will be the primary currency for acquiring Nexai's extensive range of software solutions, hardware devices, including drones and sensors, and other smart home products available on the Nexai marketplace. Users can confidently make purchases using Nex tokens, enjoying the convenience and flexibility of a token-based payment system.</p>

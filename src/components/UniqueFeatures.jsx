@@ -9,7 +9,7 @@ const UniqueFeatures = () => {
         speed: 500,
         arrows: false,
         slidesToShow: 2,
-  arrows: false,        slidesToScroll: 1,
+        arrows: false, slidesToScroll: 1,
         responsive: [
 
             {
@@ -23,7 +23,10 @@ const UniqueFeatures = () => {
     return (
         <>
             <section id="my_scroll">
-                <div className="boxunique mx-auto overflow-y-scroll position-relative z-3">
+                <div className="boxunique mx-auto  position-relative z-3">
+                    <div className='backgroundShadow UniqueShadow_1 position-absolute '></div>
+                    <div className=' UniqueShadow_2 position-absolute'></div>
+                    <div className=' UniqueShadow_3 position-absolute'></div>
                     <img
                         className=" position-absolute UniqueCenterImg start-50 translate-middle-x z-n1 w_100 w_sm_unset"
                         src={UniqueCenterImg}

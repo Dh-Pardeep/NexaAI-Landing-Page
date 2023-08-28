@@ -1,11 +1,14 @@
 import React from 'react'
 import { Container } from 'react-bootstrap'
 import { Link } from 'react-router-dom'
-
+import BlockchainShadowIMg from '../assets/image/png/B;lockchainShadowImg.png'
 const ReadyGetStarted = () => {
     return (
         <>
-            <section>
+            <section className='position-relative'>
+                <div className=' TokenShadow_1 position-absolute '></div>
+                <div className=' GetShadow_2 position-absolute '></div>
+                <img className='position-absolute end-0' src={BlockchainShadowIMg} alt="" />
                 <Container>
                     <div className='pt-lg-4 pt-xl-5 mt-xl-5'>
                         <div className='mt-md-4 mt-lg-5'>

@@ -144,7 +144,7 @@
 
 .boxunique {
     border: 1px solid #FCFCFC;
-    height: 700px;
+    height: 670px;
     width: 95%;
     border-radius: 32px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04));
@@ -365,12 +365,80 @@
 }
 
 .AIPoweredShadow_1 {
-   left: 50%;
-   transform: translateX(-50%);
+    left: 50%;
+    transform: translateX(-50%);
     top: 10%;
     z-index: 6;
 }
 
+.UniqueShadow_1 {
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.BlockchainShadow_1 {
+    left: 0;
+    transform: translateX(-50%);
+    top: 23%;
+    z-index: 6;
+    background: var(--color-green);
+    filter: blur(196px);
+    width: 250px;
+    height: 250px;
+}
+
+.NexAiShadow_1 {
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 6;
+    background: var(--color-green);
+    filter: blur(196px);
+    width: 250px;
+    height: 250px;
+}
+
+.NexAiShadow_2 {
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 6;
+    background: var(--color-green);
+    filter: blur(196px);
+    width: 300px;
+    height: 300px;
+}
+
+.TokenShadow_1 {
+    top: 0%;
+    left: 0%;
+    transform: translateX(-50%);
+    z-index: 6;
+    background: var(--color-green);
+    filter: blur(196px);
+    width: 200px;
+    height: 200px;
+}
+
+.TokenShadow_2 {
+    bottom: 20%;
+    right: 0%;
+    z-index: 6;
+    background: var(--color-green);
+    filter: blur(196px);
+    width: 200px;
+    height: 200px;
+}
+.GetShadow_2 {
+    bottom: -60%;
+    right: 0%;
+    z-index: 6;
+    background: var(--color-green);
+    filter: blur(196px);
+    width: 200px;
+    height: 200px;
+}
 
 
 @media (min-width:575.9px) {
@@ -381,6 +449,7 @@
     .cricel_left::after {
         left: -46px;
     }
+
     .AIPoweredShadow_2 {
         top: 40%;
         position: absolute;
@@ -414,7 +483,53 @@
     .bg_image_hero_xs {
         background-position: 57%;
     }
+
+    .boxunique {
+        overflow-y: scroll;
+        height: 750px;
+    }
+
+    .UniqueShadow_2 {
+        top: 40%;
+        right: 0;
+        background: var(--color-green);
+        filter: blur(196px);
+        width: 250px;
+        height: 250px;
+    }
+
+    .UniqueShadow_3 {
+        bottom: -90%;
+        right: 0;
+        background: var(--color-green);
+        filter: blur(196px);
+        width: 250px;
+        height: 250px;
+    }
+
+    .BlockchainShadow_2 {
+        right: 0;
+        top: 15%;
+        z-index: 6;
+        background: var(--color-green);
+        filter: blur(196px);
+        width: 250px;
+        height: 250px;
+    }
+
+    .NexAidoesShadow_3 {
+        right: 0;
+        top: 0;
+        z-index: 6;
+        background: var(--color-green);
+        filter: blur(196px);
+        width: 200px;
+        height: 200px;
+    }
 }
+
+
+
 
 @media (min-width:991.9px) {
     .Bg_image_hero {
@@ -471,14 +586,39 @@
         padding-top: 70px;
         padding-bottom: 70px;
     }
+
     .AIPoweredShadow_1 {
         left: 20%;
-        transform:unset;
-         top: 10%;
-     }.AIPoweredShadow_1 {
+        transform: unset;
+        top: 10%;
+    }
+
+    .AIPoweredShadow_1 {
         left: 27%;
         transform: unset;
         top: 23%;
+    }
+
+    .NexAiShadow_1 {
+        top: 35%;
+        left: 12%;
+        z-index: 6;
+        background: var(--color-green);
+        filter: blur(196px);
+        width: 250px;
+        height: 250px;
+
+    }
+
+    .NexAiShadow_2 {
+        top: 35%;
+        right: 0%;
+        left: unset;
+        z-index: 6;
+        background: var(--color-green);
+        filter: blur(196px);
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -490,7 +630,9 @@
     .NexAi_box_one {
         padding: 110px;
 
-    } .AIPoweredShadow_1 {
+    }
+
+    .AIPoweredShadow_1 {
         left: 27%;
         transform: unset;
         top: 23%;
@@ -506,7 +648,7 @@
         padding-top: 160px;
         padding-bottom: 160px;
     }
-   
+
 }
 
 @media (min-width:1600px) {
@@ -519,5 +661,9 @@
         padding-left: 140px;
     }
 
+    .NexAiShadow_2 {
+        top: 35%;
+        right: 10%;
+    }
 
 }
