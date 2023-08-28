@@ -1,23 +1,23 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import HandAI from '../assets/image/png/handAI.png'
+import HandAI from '../assets/image/webp/handAI.webp'
 import BlockchainShadowIMg from '../assets/image/png/B;lockchainShadowImg.png'
 const NexAIToken = () => {
     return (
-        <>
+        <div id='Tokens'>
             <section className='position-relative ' id="my_scroll" >
-                <div className=' TokenShadow_1 position-absolute '></div>
+               <div className=' TokenShadow_1 position-absolute '></div>
                 <div className=' TokenShadow_2 position-absolute '></div>
                 <img className='position-absolute end-0' src={BlockchainShadowIMg} alt="" />
-                <Container>
+                <Container id=''>
                     <div className='mt-lg-5'>
                         <h3 className='ff_Recharge fw-bold font_3xl text_green text-center mt-5 py-5 '>NexAI Token & utility</h3>
                     </div>
                     <Row className='align-items-center'>
-                        <Col lg={6}>
-                            <img className='w-100' src={HandAI} alt="" />
+                        <Col lg={6} data-aos-delay="500" data-aos="fade-right">
+                            <img className='w-100 ' src={HandAI} alt="" />
                         </Col>
-                        <Col lg={6} className='mt-5'>
+                        <Col lg={6} className='mt-5' data-aos-delay="500" data-aos="fade-left">
                             <div className='Tokens_boxScroll   position-relative overflow-scroll'>
                                 <div className='Left_line position-relative'>
                                     <div className='ps-5 ms-sm-5 cricel_left position-relative'>
@@ -60,7 +60,7 @@ const NexAIToken = () => {
                     </Row>
                 </Container>
             </section>
-        </>
+        </div>
     )
 }
 
