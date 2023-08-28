@@ -27,11 +27,6 @@ const UniqueFeatures = () => {
                     <div className='backgroundShadow UniqueShadow_1 position-absolute '></div>
                     <div className=' UniqueShadow_2 position-absolute'></div>
                     <div className=' UniqueShadow_3 position-absolute'></div>
-                    <img
-                        className=" position-absolute UniqueCenterImg start-50 translate-middle-x z-n1 w_100 w_sm_unset"
-                        src={UniqueCenterImg}
-                        alt="UniqueCenterImg"
-                    />
                     <h2 className="text_white font_3xl ff_Recharge fw-bold mb-0 mb-3 text-center mt-5">
                         Unique features
                     </h2>
@@ -40,7 +35,7 @@ const UniqueFeatures = () => {
                         languages,
                     </p>
                     <div className="pt-5 d-none d-md-block">
-                        <div className="RemoteAccess_box mt-5 marginleft">
+                        <div className="RemoteAccess_box mt-5 marginleft" data-aos="zoom-in" >
                             <RemoteAccess />
                             <h2 className="ff_Recharge fw-bold font_lg text_black mt-4 pt-2 mb-3">
                                 Remote Access and File Management
@@ -69,7 +64,7 @@ const UniqueFeatures = () => {
                                 </p>
                             </div>
                         </div>
-                        <div className="RemoteAccess_box RemoteAccess_box_top_translate_2 marginleft">
+                        <div className="RemoteAccess_box RemoteAccess_box_top_translate_2 marginleft"  >
                             <RemoteAccess />
                             <h2 className="ff_Recharge fw-bold font_lg text_black mt-4 pt-2 mb-3">
                                 Remote Access and File Management
@@ -82,7 +77,7 @@ const UniqueFeatures = () => {
                                 call with Nexai, and request access to your computer.{" "}
                             </p>
                         </div>
-                        <div className="d-flex justify-content-end marginright RemoteAccess_box_top_translate_3">
+                        <div className="d-flex justify-content-end marginright RemoteAccess_box_top_translate_3" >
                             <div className="RemoteAccess_box">
                                 <Realtime />
                                 <h2 className="ff_Recharge fw-bold font_lg text_black mt-4 pt-2 mb-3">
@@ -101,7 +96,7 @@ const UniqueFeatures = () => {
                     </div>
                     <Slider {...settings} className="d-md-none pt-5">
                         <div>
-                            <div className="RemoteAccess_box mx-auto">
+                            <div className="RemoteAccess_box mx-auto"  data-aos="zoom-in">
                                 <RemoteAccess />
                                 <h2 className="ff_Recharge fw-bold font_lg text_black mt-4 pt-2 mb-3">
                                     Remote Access and File Management
@@ -116,7 +111,7 @@ const UniqueFeatures = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="RemoteAccess_box mx-auto">
+                            <div className="RemoteAccess_box mx-auto"  data-aos="zoom-in">
                                 <Realtime />
                                 <h2 className="ff_Recharge fw-bold font_lg text_black mt-4 pt-2 mb-3">
                                     Real-time Home Monitoring
@@ -132,7 +127,7 @@ const UniqueFeatures = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="RemoteAccess_box mx-auto">
+                            <div className="RemoteAccess_box mx-auto"  data-aos="zoom-in">
                                 <RemoteAccess />
                                 <h2 className="ff_Recharge fw-bold font_lg text_black mt-4 pt-2 mb-3">
                                     Remote Access and File Management
@@ -147,7 +142,7 @@ const UniqueFeatures = () => {
                             </div>
                         </div>
                         <div>
-                            <div className="RemoteAccess_box mx-auto">
+                            <div className="RemoteAccess_box mx-auto"  data-aos="zoom-in">
                                 <Realtime />
                                 <h2 className="ff_Recharge fw-bold font_lg text_black mt-4 pt-2 mb-3">
                                     Real-time Home Monitoring

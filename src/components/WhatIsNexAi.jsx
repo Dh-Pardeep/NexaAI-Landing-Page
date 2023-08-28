@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import NexAIPhoto from '../assets/image/png/AIPhoto.png'
+import NexAIPhoto from '../assets/image/webp/AIPhoto.webp'
 import { Link } from 'react-router-dom'
 const WhatIsNexAi = () => {
     return (
@@ -12,7 +12,7 @@ const WhatIsNexAi = () => {
                         <div className=' NexAiShadow_2 position-absolute'></div>
                         <Container>
                             <Row className='align-items-center '>
-                                <Col lg={7}>
+                                <Col lg={7} >
                                     <div className='position-relative z-3'>
                                         <h2 className='ff_Recharge fw-bold font_3xl text_green mt-5'>What is NexAi?</h2>
                                         <p className='opacity_7 text_white font_xs fw-normal ff_Poppins AIPowered_para_w'>Beyond its convenience, Nexai revolutionizes the way you interact with your home environment. It enhances productivity, efficiency, and overall well-being. From managing your schedules to transforming the way you experience smart living, Nexai opens up a world of possibilities.</p>

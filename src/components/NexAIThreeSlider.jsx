@@ -29,7 +29,7 @@ const NexAIThreeSlider = () => {
                 }
             },
             {
-                breakpoint: 1200,
+                breakpoint: 500,
                 settings: {
                     slidesToShow: 2.5,
                     slidesToScroll: 1,
@@ -88,7 +88,7 @@ const NexAIThreeSlider = () => {
                 }
             },
             {
-                breakpoint: 1200,
+                breakpoint: 500,
                 settings: {
                     slidesToShow: 2.5,
                     slidesToScroll: 1,
@@ -132,129 +132,129 @@ const NexAIThreeSlider = () => {
                 </p>
                 <Slider {...settings}>
                     <div className="py-4 ps-4" >
-                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on light</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, set
                                 alarm of 5:00 am</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, measure this table</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on music</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4" >
-                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on light</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, set
                                 alarm of 5:00 am</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, measure this table</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on music</h2>
                         </div>
                     </div>
                 </Slider>
                 <Slider {...settingsTwo}>
                     <div className="py-4 ps-4" >
-                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, measure this table</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on music</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on light</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, is the front door locked?</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4" >
-                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, measure this table</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on music</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on light</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, is the front door locked?</h2>
                         </div>
                     </div>
                 </Slider>
                 <Slider {...settings} className='pb-5'>
                     <div className="py-4 ps-4" >
-                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on TV</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on music</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn of AC.</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Lock
                                 the front door</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4" >
-                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box  d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on TV</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn on music</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Turn of AC.</h2>
                         </div>
                     </div>
                     <div className="py-4 ps-4">
-                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '>
+                        <div className='Three_slider_box d-flex justify-content-center align-items-center c_pointer '  data-aos="zoom-in" data-aos-delay="500">
                             <h2 className='ff_Recharge font_lg text_white Three_Slider_box_h2 text-center mx-auto'>NexAi, Lock
                                 the front door</h2>
                         </div>

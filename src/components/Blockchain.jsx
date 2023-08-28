@@ -75,7 +75,7 @@ const Blockchain = () => {
                 </div>
                 <Slider {...settings} className='pt-5 pb-lg-5 ps_150px'>
                     <div>
-                        <div className='position-relative d-inline-block c_pointer'>
+                        <div className='position-relative d-inline-block c_pointer  ' data-aos="zoom-in" data-aos-delay="500">
                             <img className='w-100' src={ImageP1} alt="ImageP1" />
                             <div className='position-absolute translate-middle start-50 top_box_security w-100 pt-5'>
                                 <h2 className='font_2xl ff_Recharge text_white fw-bold One_border d-inline-block accordion-body d-flex align-items-center justify-content-center mx-auto'>1</h2>
@@ -84,7 +84,7 @@ const Blockchain = () => {
                         </div>
                     </div>
                     <div className='py-5'>
-                        <div className='position-relative d-inline-block  my-5 c_pointer'>
+                        <div className='position-relative d-inline-block  my-5 c_pointer  ' data-aos="zoom-in" data-aos-delay="500">
                             <img className='w-100' src={ImageP1} alt="ImageP1" />
                             <div className='position-absolute translate-middle start-50 top_box_security w-100 pt-5'>
                                 <h2 className='font_2xl ff_Recharge text_white fw-bold One_border d-inline-block accordion-body d-flex align-items-center justify-content-center mx-auto'>2</h2>
@@ -93,7 +93,7 @@ const Blockchain = () => {
                         </div>
                     </div>
                     <div>
-                        <div className='position-relative d-inline-block c_pointer'>
+                        <div className='position-relative d-inline-block c_pointer  ' data-aos="zoom-in" data-aos-delay="500">
                             <img className='w-100' src={ImageP1} alt="ImageP1" />
                             <div className='position-absolute translate-middle start-50 top_box_security w-100 pt-5'>
                                 <h2 className='font_2xl ff_Recharge text_white fw-bold One_border d-inline-block accordion-body d-flex align-items-center justify-content-center mx-auto'>3</h2>
@@ -102,7 +102,7 @@ const Blockchain = () => {
                         </div>
                     </div>
                     <div className='py-5'>
-                        <div className='position-relative d-inline-block my-5 c_pointer'>
+                        <div className='position-relative d-inline-block my-5 c_pointer  ' data-aos="zoom-in" data-aos-delay="500">
                             <img className='w-100' src={ImageP1} alt="ImageP1" />
                             <div className='position-absolute translate-middle start-50 top_box_security w-100 pt-5'>
                                 <h2 className='font_2xl ff_Recharge text_white fw-bold One_border d-inline-block accordion-body d-flex align-items-center justify-content-center mx-auto'>4 </h2>

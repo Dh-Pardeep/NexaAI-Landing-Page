@@ -2,15 +2,15 @@ import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
 import { Facebook, Telegram, Twitter } from './Icons'
 import { Link } from 'react-router-dom'
-import FooterMoon from '../../assets/image/png/footer_moon.png'
+import FooterMoon from '../../assets/image/webp/footer_moon.webp'
 const MyFooter = () => {
     return (
         <>
-            <footer className='position-relative '>
+            <footer className='position-relative ' id='About'>
                 <img className='position-absolute FooterMoon' src={FooterMoon} alt="FooterMoon" />
                 <Container className='mt-lg-5 pt-xl-4'>
                     <Row className=' align-align-items-baseline mt-sm-3 mt-md-5 pt-lg-5 '>
-                        <Col md={5} lg={5} xl={6} className='pt-5'>
+                        <Col md={5} lg={5} xl={6} className='pt-5' data-aos-delay="500" data-aos="fade-right">
                             <p className='ff_Recharge text_white opacity_7 font_xs fw-bold footerpara'>Nullam viverra natoque amet et sed scelerisque viverra fringilla platea. Ullamcorper.</p>
                             <div className='d-flex'>
                                 <Facebook />
@@ -20,7 +20,7 @@ const MyFooter = () => {
                                 <Telegram />
                             </div>
                         </Col>
-                        <Col md={7} lg={7} xl={5} >
+                        <Col md={7} lg={7} xl={5} data-aos-delay="500" data-aos="fade-left">
                             <div className='d-flex  align-align-items-baseline pt-5 pt-md-0 justify-content-lg-between justify-content-between justify-content-md-start ps-md-5 ms-md-5'>
                                 <ul className='ps-0 '>
                                     <li className='ff_Recharge fw-bold font_md text_white'>Quick links</li>

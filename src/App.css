@@ -1,11 +1,13 @@
 /* ///////////////// Common Components /////////////// */
 body{
-    overflow: hidden    ;
+    overflow: hidden;
 }
 .Bg_Color {
     background-color: var(--color-black) !important;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 .common_btn {
     background: #02CDCF;
     border-radius: 8px;
@@ -36,6 +38,9 @@ body{
 
 /* ////////////////////  Nav Bar /////////////////// */
 
+.z_1000{
+    z-index: 1000 !important;
+}
 .py_30 {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -82,8 +87,9 @@ body{
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        z-index: 3;
+        z-index: 100;
         transition: all 500ms linear;
+
     }
 
     .nav_show {
@@ -105,10 +111,6 @@ body{
 
 /* ////////////////////  Hero Section /////////////////// */
 .bg_image_hero_xs {
-    /* background-image: url("./assets/image/gif/SmallScreenHero.gif");
-    background-repeat: no-repeat;
-    background-position: 50%;
-    background-size: 100% 100%; */
     background-image: url("./assets/image/gif/SmallScreenHero.gif");
     background-repeat: no-repeat;
     background-position: 100%;
@@ -150,6 +152,10 @@ body{
     width: 95%;
     border-radius: 32px;
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04));
+    background-image: url("./assets//image/webp/UniqueCenterImage.webp");
+    background-position-x: center;
+    background-position-y:60%;
+    background-repeat: no-repeat;
 }
 
 .unique_para_w {
@@ -451,26 +457,22 @@ body{
     width: 300px;
     height: 300px;
 }
-.Preloader_img{
-    animation: Preloader_img 3.5 infinite ;
-    transition: all 4s linear;
+
+.animation_preloader {
+    animation: loder 3s linear;
 }
-@keyframes Preloader_img {
-    0%{
-        transform: scale(1.1);
+
+@keyframes loder {
+    0% {
+        transform: rotate(0);
     }
-    25%{
-        transform: scale(1.1);
+
+    100% {
+        transform: rotate(360deg);
     }
-    50%{
-        transform: scale(1.1);
-    }
-    75%{
-        transform: scale(1.1);
-    }
-    100%{
-        transform: scale(1.1);
-    }
+}
+.z_11{
+    z-index: 11;
 }
 .scrollTop {
     position: fixed;
@@ -605,9 +607,6 @@ body{
         transform: translateX(-50%);
     }
 }
-
-
-
 
 @media (min-width:991.9px) {
     .Bg_image_hero {
