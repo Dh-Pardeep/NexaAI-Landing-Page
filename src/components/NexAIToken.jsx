@@ -5,7 +5,7 @@ import BlockchainShadowIMg from '../assets/image/png/B;lockchainShadowImg.png'
 const NexAIToken = () => {
     return (
         <>
-            <section  className='position-relative 'id="my_scroll" >
+            <section className='position-relative ' id="my_scroll" >
                 <div className=' TokenShadow_1 position-absolute '></div>
                 <div className=' TokenShadow_2 position-absolute '></div>
                 <img className='position-absolute end-0' src={BlockchainShadowIMg} alt="" />
@@ -18,7 +18,7 @@ const NexAIToken = () => {
                             <img className='w-100' src={HandAI} alt="" />
                         </Col>
                         <Col lg={6} className='mt-5'>
-                            <div  className='Tokens_boxScroll   position-relative overflow-scroll'>
+                            <div className='Tokens_boxScroll   position-relative overflow-scroll'>
                                 <div className='Left_line position-relative'>
                                     <div className='ps-5 ms-sm-5 cricel_left position-relative'>
                                         <h2 className='font_xl text_white fw-bold ff_Recharge'>Purchasing Nexai Products</h2>

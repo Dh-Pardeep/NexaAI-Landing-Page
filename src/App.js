@@ -12,10 +12,14 @@ import WhatIsNexAi from './components/WhatIsNexAi';
 import MyFooter from './components/common/MyFooter';
 import ReadyGetStarted from './components/ReadyGetStarted';
 import NexAIToken from './components/NexAIToken';
+import BackToTop from './components/common/BackToTop';
+import LoaderHome from './components/common/LoaderHome';
 function App() {
   return (
     <>
       <div className='Bg_Color'>
+        <LoaderHome/>
+        <BackToTop/>
         <HeroSection />
         <AIPowered/>
         <UniqueFeatures/>
