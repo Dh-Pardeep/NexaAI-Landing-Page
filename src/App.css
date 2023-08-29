@@ -202,7 +202,12 @@ html{
 }
 
 /* ////////////////////  Blockchain Section /////////////////// */
-
+.ImageP1{
+    transition: all 300ms linear;
+}
+.ImageP1:hover{
+    transform:scale(1.1);
+}
 .BlockchainPara {
     max-width: 997px;
 }
