@@ -624,10 +624,10 @@ html{
     .header_shadow::after {
         background: linear-gradient(90deg, #000, transparent);
         content: "";
-        height: 425px;
+        height: 447px;
         left: 21%;
         position: absolute;
-        top: 171px;
+        top: 180px;
         width: 20%;
         z-index: 0;
     }
@@ -721,10 +721,10 @@ html{
     }.header_shadow::after {
         background: linear-gradient(90deg, #000, transparent);
         content: "";
-        height: 452px;
+        height: 475px;
         left: 21%;
         position: absolute;
-        top: 181px;
+        top: 192px;
         width: 20%;
         z-index: 0;
     }
@@ -744,10 +744,10 @@ html{
     .header_shadow::after {
         background: linear-gradient(90deg, #000, transparent);
         content: "";
-        height: 403px;
+        height: 427px;
         left: 21%;
         position: absolute;
-        top: 162px;
+        top: 172px;
         width: 20%;
         z-index: 0;
     }
