@@ -1,13 +1,16 @@
 /* ///////////////// Common Components /////////////// */
-body{
+body {
     overflow: hidden;
 }
+
 .Bg_Color {
     background-color: var(--color-black) !important;
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
+
 .common_btn {
     background: #02CDCF;
     border-radius: 8px;
@@ -38,9 +41,10 @@ html{
 
 /* ////////////////////  Nav Bar /////////////////// */
 
-.z_1000{
+.z_1000 {
     z-index: 1000 !important;
 }
+
 .py_30 {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -154,7 +158,7 @@ html{
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04));
     background-image: url("./assets//image/webp/UniqueCenterImage.webp");
     background-position-x: center;
-    background-position-y:60%;
+    background-position-y: 60%;
     background-repeat: no-repeat;
 }
 
@@ -202,12 +206,14 @@ html{
 }
 
 /* ////////////////////  Blockchain Section /////////////////// */
-.ImageP1{
+.ImageP1 {
     transition: all 300ms linear;
 }
-.ImageP1:hover{
-    transform:scale(1.1);
+
+.ImageP1:hover {
+    transform: scale(1.1);
 }
+
 .BlockchainPara {
     max-width: 997px;
 }
@@ -443,6 +449,7 @@ html{
     width: 200px;
     height: 200px;
 }
+
 .GetShadow_2 {
     bottom: -60%;
     right: 0%;
@@ -452,33 +459,24 @@ html{
     width: 150px;
     height: 150px;
 }
-.PreloaderShadow {
-   top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    z-index: 6;
-    background: var(--color-green);
-    filter: blur(196px);
-    width: 300px;
-    height: 300px;
-}
-
 .animation_preloader {
     animation: loder 3s linear;
 }
 
 @keyframes loder {
     0% {
-        transform: rotate(0);
+        transform: scale(0);
     }
 
     100% {
-        transform: rotate(360deg);
+        transform: scale(1.5);
     }
 }
-.z_11{
+
+.z_11 {
     z-index: 11;
 }
+
 .scrollTop {
     position: fixed;
     width: 40px;
@@ -511,6 +509,7 @@ html{
         right: 30px;
         height: 45px !important;
     }
+
     .w_sm_unset {
         width: unset !important;
     }
@@ -528,13 +527,15 @@ html{
         filter: blur(196px);
         width: 200px;
         height: 200px;
-    }.FooterMoon {
+    }
+
+    .FooterMoon {
         bottom: 11%;
         width: 82%;
         left: 50%;
         transform: translateX(-50%);
     }
-    
+
 }
 
 @media (min-width:767.9px) {
@@ -544,6 +545,7 @@ html{
         right: 40px;
         height: 50px !important;
     }
+
     .marginleft {
         margin-left: 30px;
     }
@@ -605,7 +607,9 @@ html{
         filter: blur(196px);
         width: 200px;
         height: 200px;
-    }.FooterMoon {
+    }
+
+    .FooterMoon {
         bottom: 0%;
         width: 95%;
         left: 50%;
@@ -718,7 +722,9 @@ html{
         left: 27%;
         transform: unset;
         top: 23%;
-    }.header_shadow::after {
+    }
+
+    .header_shadow::after {
         background: linear-gradient(90deg, #000, transparent);
         content: "";
         height: 475px;

@@ -43,13 +43,13 @@ const NexAIToken = () => {
                                         <p className='opacity_7 text_white font_xs fw-normal ff_Poppins mt-3'>Nex AI token holders will play a vital role in the governance of the Nexai ecosystem. Through voting mechanisms, token holders will have a direct say in the decision-making process. They can express their opinions, vote on proposed changes or improvements, and actively contribute to shaping the future development and direction of the Nexai ecosystem.</p>
                                     </div>
                                 </div>
-                                <div className='  Left_line position-relative mt-5 pt-xl-4'>
+                                <div className='Left_line position-relative mt-5 pt-xl-4'>
                                     <div className='ps-5 ms-sm-5 cricel_left position-relative'>
                                         <h2 className='font_xl text_white fw-bold ff_Recharge'>Peer-to-Peer Transactions</h2>
                                         <p className='opacity_7 text_white font_xs fw-normal ff_Poppins mt-3'>Nex AI tokens will enable seamless peer-to-peer transactions within the Nexai community. Users will have the ability to exchange tokens with others for various purposes, such as purchasing pre-owned Nexai devices, engaging in token trading activities, or conducting value exchanges directly within the ecosystem, all with the utmost security and convenience.</p>
                                     </div>
                                 </div>
-                                <div className='  Left_line_last position-relative mt-5 pt-xl-4'>
+                                <div className='Left_line_last position-relative mt-5 pt-xl-4'>
                                     <div className='ps-5 ms-sm-5 cricel_left position-relative'>
                                         <h2 className='font_xl text_white fw-bold ff_Recharge'>Token Staking and Rewards</h2>
                                         <p className='opacity_7 text_white font_xs fw-normal ff_Poppins mt-3'>Nex AI tokens will support staking mechanisms, allowing users to lock up their tokens for a specified period. By staking their tokens, users will earn additional rewards, such as interest, dividends, or other incentives, further incentivizing token holding and fostering long-term engagement and loyalty.</p>
